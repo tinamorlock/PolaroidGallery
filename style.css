@@ -1,20 +1,34 @@
+body {
+    background-color: black;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 10px;
 }
 
 h1 {
     font-family: fantasy;
     text-align: center;
     font-size: 3em;
-    border-bottom: 2px solid gold;
-    border-right: 2px solid gold;
+    background-color: white;
     width: 400px;
     margin: auto auto 25px auto;
+    box-shadow: 3px 3px 2px gray;
+    padding-top: 15px;
 }
 
 img {
     width: 450px;
     margin: 5px;
+    transition: all 1s;
+    border-bottom: 100px solid white;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 2px gray;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
