@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 2px solid gold;
+    border-right: 2px solid gold;
+    width: 400px;
+    margin: auto auto 25px auto;
+}
+
+img {
+    width: 450px;
+    margin: 5px;
+}
