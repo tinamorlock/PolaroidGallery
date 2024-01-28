@@ -24,6 +24,9 @@ img {
     width: 450px;
     margin: 5px;
     transition: all 1s;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-top: 10px solid white;
     border-bottom: 100px solid white;
     margin-bottom: 10px;
     box-shadow: 4px 4px 2px gray;
